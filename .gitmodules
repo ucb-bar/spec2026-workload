@@ -1,0 +1,3 @@
+[submodule "speckle"]
+	path = speckle
+	url = git@github.com:ucb-bar/Speckle.git
