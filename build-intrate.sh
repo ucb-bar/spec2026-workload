@@ -7,5 +7,10 @@ if [ "$1" != "ref" ] && [ "$1" != "test" ] && [ "$1" != "train" ]; then
     exit 1
 fi
 
-echo "Building SPEC2026 Intrate with $1 inputs"
-make spec26-intrate INPUT=$1
+settings_file="$(dirname "$0")/marshal-configs/spec26-settings.sh"
+. "$settings_file"
+
+threads="${SPEC26_INTRATE_COPIES:?SPEC26_INTRATE_COPIES must be set}"
+
+echo "Building SPEC2026 Intrate with $1 inputs and $threads generated-command thread(s)"
+make spec26-intrate INPUT=$1 THREADS="$threads"

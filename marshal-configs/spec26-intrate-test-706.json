@@ -4,13 +4,14 @@
   "workdir" : "..",
   "host-init" : "build-intrate.sh test",
   "overlay" : "speckle/build/overlay/intrate/test",
+  "files" : [["marshal-configs/spec26-settings.sh", "/spec26-settings.sh"]],
   "rootfs-size" : "8GiB",
   "outputs" : ["/output"],
   "post_run_hook" : "handle-results.py -d test -s intrate",
   "jobs" : [
     {
       "name": "706.stockfish_r",
-      "command": "./intrate.sh 706.stockfish_r --copies 4"
+      "command": ". /spec26-settings.sh && ./intrate.sh 706.stockfish_r --copies $SPEC26_INTRATE_COPIES"
     }
   ]
 }

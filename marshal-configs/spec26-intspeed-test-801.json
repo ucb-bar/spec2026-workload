@@ -4,13 +4,14 @@
   "workdir" : "..",
   "host-init" : "build-intspeed.sh test",
   "overlay" : "speckle/build/overlay/intspeed/test",
+  "files" : [["marshal-configs/spec26-settings.sh", "/spec26-settings.sh"]],
   "rootfs-size" : "8GiB",
   "outputs" : ["/output"],
   "post_run_hook" : "handle-results.py -d test -s intspeed",
   "jobs" : [
     {
       "name": "801.xz_s",
-      "command": "./intspeed.sh 801.xz_s --threads 4"
+      "command": ". /spec26-settings.sh && ./intspeed.sh 801.xz_s --threads $SPEC26_INTSPEED_THREADS"
     }
   ]
 }
