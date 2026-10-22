@@ -1,0 +1,18 @@
+{
+  "name": "spec-intspeed-train-834.vpr",
+  "base": "br-base.json",
+  "workdir": "..",
+  "host-init": "build-int-single-thread.sh intspeed train",
+  "overlay": "speckle/build/overlay/intspeed/train",
+  "rootfs-size": "16GiB",
+  "outputs": [
+    "/output"
+  ],
+  "jobs": [
+    {
+      "name": "834.vpr_s",
+      "command": "./intspeed.sh 834.vpr_s --threads 1",
+      "rootfs-size": "16GiB"
+    }
+  ]
+}
