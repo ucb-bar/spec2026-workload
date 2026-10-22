@@ -1,0 +1,112 @@
+{
+  "benchmark_name": "spec-intspeed-test",
+  "common_simulation_outputs": [
+    "uartlog"
+  ],
+  "workloads": [
+    {
+      "name": "spec-intspeed-test-801.xz-801.xz_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-801.xz-801.xz_s/spec-intspeed-test-801.xz-801.xz_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-801.xz-801.xz_s/spec-intspeed-test-801.xz-801.xz_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-807.ntest-807.ntest_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-807.ntest-807.ntest_s/spec-intspeed-test-807.ntest-807.ntest_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-807.ntest-807.ntest_s/spec-intspeed-test-807.ntest-807.ntest_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-817.flac-817.flac_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-817.flac-817.flac_s/spec-intspeed-test-817.flac-817.flac_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-817.flac-817.flac_s/spec-intspeed-test-817.flac-817.flac_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-821.gcc-821.gcc_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-821.gcc-821.gcc_s/spec-intspeed-test-821.gcc-821.gcc_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-821.gcc-821.gcc_s/spec-intspeed-test-821.gcc-821.gcc_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-823.llvm-823.llvm_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-823.llvm-823.llvm_s/spec-intspeed-test-823.llvm-823.llvm_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-823.llvm-823.llvm_s/spec-intspeed-test-823.llvm-823.llvm_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-827.cppcheck-827.cppcheck_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-827.cppcheck-827.cppcheck_s/spec-intspeed-test-827.cppcheck-827.cppcheck_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-827.cppcheck-827.cppcheck_s/spec-intspeed-test-827.cppcheck-827.cppcheck_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-829.abc-829.abc_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-829.abc-829.abc_s/spec-intspeed-test-829.abc-829.abc_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-829.abc-829.abc_s/spec-intspeed-test-829.abc-829.abc_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-834.vpr-834.vpr_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-834.vpr-834.vpr_s/spec-intspeed-test-834.vpr-834.vpr_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-834.vpr-834.vpr_s/spec-intspeed-test-834.vpr-834.vpr_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-835.gem5-835.gem5_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-835.gem5-835.gem5_s/spec-intspeed-test-835.gem5-835.gem5_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-835.gem5-835.gem5_s/spec-intspeed-test-835.gem5-835.gem5_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-838.diamond-838.diamond_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-838.diamond-838.diamond_s/spec-intspeed-test-838.diamond-838.diamond_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-838.diamond-838.diamond_s/spec-intspeed-test-838.diamond-838.diamond_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-846.minizinc-846.minizinc_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-846.minizinc-846.minizinc_s/spec-intspeed-test-846.minizinc-846.minizinc_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-846.minizinc-846.minizinc_s/spec-intspeed-test-846.minizinc-846.minizinc_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-853.ns3-853.ns3_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-853.ns3-853.ns3_s/spec-intspeed-test-853.ns3-853.ns3_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-853.ns3-853.ns3_s/spec-intspeed-test-853.ns3-853.ns3_s.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intspeed-test-854.graph500-854.graph500_s",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-854.graph500-854.graph500_s/spec-intspeed-test-854.graph500-854.graph500_s-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intspeed-test-854.graph500-854.graph500_s/spec-intspeed-test-854.graph500-854.graph500_s.img",
+      "outputs": [
+        "/output"
+      ]
+    }
+  ]
+}

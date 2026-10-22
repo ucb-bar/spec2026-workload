@@ -1,0 +1,120 @@
+{
+  "benchmark_name": "spec-intrate-test",
+  "common_simulation_outputs": [
+    "uartlog"
+  ],
+  "workloads": [
+    {
+      "name": "spec-intrate-test-706.stockfish-706.stockfish_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-706.stockfish-706.stockfish_r/spec-intrate-test-706.stockfish-706.stockfish_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-706.stockfish-706.stockfish_r/spec-intrate-test-706.stockfish-706.stockfish_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-707.ntest-707.ntest_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-707.ntest-707.ntest_r/spec-intrate-test-707.ntest-707.ntest_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-707.ntest-707.ntest_r/spec-intrate-test-707.ntest-707.ntest_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-708.sqlite-708.sqlite_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-708.sqlite-708.sqlite_r/spec-intrate-test-708.sqlite-708.sqlite_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-708.sqlite-708.sqlite_r/spec-intrate-test-708.sqlite-708.sqlite_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-710.omnetpp-710.omnetpp_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-710.omnetpp-710.omnetpp_r/spec-intrate-test-710.omnetpp-710.omnetpp_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-710.omnetpp-710.omnetpp_r/spec-intrate-test-710.omnetpp-710.omnetpp_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-714.cpython-714.cpython_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-714.cpython-714.cpython_r/spec-intrate-test-714.cpython-714.cpython_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-714.cpython-714.cpython_r/spec-intrate-test-714.cpython-714.cpython_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-721.gcc-721.gcc_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-721.gcc-721.gcc_r/spec-intrate-test-721.gcc-721.gcc_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-721.gcc-721.gcc_r/spec-intrate-test-721.gcc-721.gcc_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-723.llvm-723.llvm_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-723.llvm-723.llvm_r/spec-intrate-test-723.llvm-723.llvm_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-723.llvm-723.llvm_r/spec-intrate-test-723.llvm-723.llvm_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-727.cppcheck-727.cppcheck_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-727.cppcheck-727.cppcheck_r/spec-intrate-test-727.cppcheck-727.cppcheck_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-727.cppcheck-727.cppcheck_r/spec-intrate-test-727.cppcheck-727.cppcheck_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-729.abc-729.abc_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-729.abc-729.abc_r/spec-intrate-test-729.abc-729.abc_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-729.abc-729.abc_r/spec-intrate-test-729.abc-729.abc_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-734.vpr-734.vpr_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-734.vpr-734.vpr_r/spec-intrate-test-734.vpr-734.vpr_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-734.vpr-734.vpr_r/spec-intrate-test-734.vpr-734.vpr_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-735.gem5-735.gem5_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-735.gem5-735.gem5_r/spec-intrate-test-735.gem5-735.gem5_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-735.gem5-735.gem5_r/spec-intrate-test-735.gem5-735.gem5_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-750.sealcrypto-750.sealcrypto_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-750.sealcrypto-750.sealcrypto_r/spec-intrate-test-750.sealcrypto-750.sealcrypto_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-750.sealcrypto-750.sealcrypto_r/spec-intrate-test-750.sealcrypto-750.sealcrypto_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-753.ns3-753.ns3_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-753.ns3-753.ns3_r/spec-intrate-test-753.ns3-753.ns3_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-753.ns3-753.ns3_r/spec-intrate-test-753.ns3-753.ns3_r.img",
+      "outputs": [
+        "/output"
+      ]
+    },
+    {
+      "name": "spec-intrate-test-777.zstd-777.zstd_r",
+      "bootbinary": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-777.zstd-777.zstd_r/spec-intrate-test-777.zstd-777.zstd_r-bin",
+      "rootfs": "../../../../../software/firemarshal/images/firechip/spec-intrate-test-777.zstd-777.zstd_r/spec-intrate-test-777.zstd-777.zstd_r.img",
+      "outputs": [
+        "/output"
+      ]
+    }
+  ]
+}
