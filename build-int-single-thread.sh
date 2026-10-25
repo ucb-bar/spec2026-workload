@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -ne 2 || ! $1 =~ ^(intrate|intspeed)$ || ! $2 =~ ^(test|train)$ ]]; then
-    echo "Usage: $0 {intrate|intspeed} {test|train}" >&2
+if [[ $# -ne 2 || ! $1 =~ ^(intrate|intspeed)$ || ! $2 =~ ^(test|train|ref)$ ]]; then
+    echo "Usage: $0 {intrate|intspeed} {test|train|ref}" >&2
     exit 2
 fi
 
